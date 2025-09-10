@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">  
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="style.css">
+     <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script> 
+    <title>Nail Colors</title>
+</head>
+<body>
+    
+
+    
+    <div class="wrap">
+        <div id="myNav" class="overlay">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="overlay-content">
+              <a href="#">About</a>
+              <a href="#">Services</a>
+              <a href="#">Clients</a>
+              <a href="#">Contact</a>
+            </div>
+          </div>
+          <div class="header-top">
+            
+            <div class="hamburger">
+                <span style="font-size:20px;cursor:pointer" onclick="openNav()">&#9776;</span>
+            </div>
+            <div class="logo">
+                <img src="logo.png" alt="Nail Lover">
+            </div>
+        </div>
+
+          
+        
+        <div class="img-screen">
+    
+        <img id="myImage" src="img/hand_nails_transparent.png" style="width: 60%;">
+    </div>
+  
+    
+    
+
+    <div class="grid-container">
+        <div class="grid-item"><button class="circular-button-blue" type="button" onclick="document.getElementById('myImage').src='img/hand_nails_blue.png'">
+            
+            </button></div>
+        <div class="grid-item"><button class="circular-button-yellow" type="button" onclick="document.getElementById('myImage').src='img/hand_nails_yellow.png'">
+            
+            </button></div>
+        <div class="grid-item"><button class="circular-button-green" type="button" onclick="document.getElementById('myImage').src='img/hand_nails_green.png'">
+            
+            </button></div>
+        <div class="grid-item"><button class="circular-button-transparent" type="button" onclick="document.getElementById('myImage').src='img/hand_nails_transparent.png'">
+            
+            </button></div>
+        <div class="grid-item"><button class="circular-button-black" type="button" onclick="document.getElementById('myImage').src='img/hand_nails_black.png'">
+            
+            </button></div>
+    
+    </div>
+    <div class="content"><h2>Nail Lover Community</h2>
+    <p>A vibrant community for nail lovers to exchange ideas and convey their passion for nail-related topics.
+        Share your nail art ideas and try designs created by others in a click!</p>
+        <button type="button" class="btn btn-primary btn-lg">Register Now </button>
+        <button type="button" class="btn btn-primary btn-lg">Contact Us</button>
+    </div>
+    
+</div>
+
+
+    
+             
+
+</body>
+
+</html>
