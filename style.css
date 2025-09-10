@@ -162,7 +162,9 @@ body{
     }
 }
 .grid-container .grid-item {
-    display: inline-flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .grid-container{
     text-align: center;
@@ -171,14 +173,15 @@ body{
     padding: 2px;
   }
   .grid-container {
-    text-align: center;
-    background: #e2e2e2;
-    z-index: 999;
-    align-content: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(60px, 1fr));
+    gap: 10px;
+    justify-content: center;
     align-items: center;
-    padding: 10px 0px;
-    height: 70px;
-    position: relative;
+    padding: 10px 0;
+    background: #e2e2e2;
+    text-align: center;
+    z-index: 999;
   }
   .content {
     margin: 0 auto;
