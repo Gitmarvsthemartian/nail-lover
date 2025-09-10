@@ -1,0 +1,279 @@
+body{
+    margin: 0 auto;
+    padding: 0px;
+    font-family: Roboto,Segoe UI,Helvetica,Microsoft JhengHei,Arial,"sans-serif";
+}
+
+.wrap{
+    width: 100%;
+    max-width: 352px;   
+    background: linear-gradient(45deg, #e6eff8, #f5f6fbc4);
+    margin: 0 auto; 
+    align-items: center;    
+    padding: 0px;
+}
+.img-screen{
+    align-items: center;
+    text-align: center;
+    padding-top: 20px;
+    margin-bottom: -3px;
+}
+
+#myImage{
+    filter: drop-shadow(4px 4px 3px #7d7d7d); 
+}
+.circular-button-blue {
+    width: 50px;
+    height: 50px;
+    background: linear-gradient(45deg, #47aaff, #3174af);
+    background-color: #47a9ffab;
+    border: none;
+    border-radius: 50%;
+    color: white;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    outline: none;
+    transition: background-color 0.3s, transform 0.3s; /* Smooth transition for hover effect */
+    transition: transform 0.3s ease, opacity 0.3s ease; /* Smooth transition for transform and opacity */
+}
+
+.circular-button-blue:hover {
+    background: linear-gradient(45deg, #47a9ff62, #58a6ea);
+    background-color: darkblue;
+    transform: scale(1.1); /* Slightly larger on hover */
+    border: solid white 2px !important;
+}
+
+.circular-button-yellow {
+    width: 50px;
+    height: 50px;
+    background: linear-gradient(45deg, #ffe371, #ebbe0a);
+    background-color: rgb(255, 251, 0);
+    border: none;
+    border-radius: 50%;
+    color: white;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    outline: none;
+    transition: background-color 0.3s, transform 0.3s; /* Smooth transition for hover effect */
+}
+
+.circular-button-yellow:hover {
+    background: linear-gradient(45deg, #ceab1e, #ffdc4e);
+    background-color: rgb(177, 131, 5);
+    transform: scale(1.1); /* Slightly larger on hover */
+    border: solid white 2px !important;
+}
+
+.circular-button-green {
+    width: 50px;
+    height: 50px;
+    background: linear-gradient(45deg, #bfd67f, #77971f);
+    background-color: rgba(17, 102, 28, 0.712);
+    border: none;
+    border-radius: 50%;
+    color: white;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    outline: none;
+    transition: background-color 0.3s, transform 0.3s; /* Smooth transition for hover effect */
+}
+
+.circular-button-green:hover {
+    background: linear-gradient(45deg, #789133, #42570a);
+    background-color: rgb(5, 177, 34);
+    transform: scale(1.1); /* Slightly larger on hover */
+    border: solid white 2px !important;
+}
+
+.circular-button-transparent {
+    width: 50px;
+    height: 50px;
+    background: linear-gradient(45deg, #d7cbb6, #a09177);
+    background-color: #ad9c7f;
+    border: none;
+    border-radius: 50%;
+    color: white;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    outline: none;
+    transition: background-color 0.3s, transform 0.3s; /* Smooth transition for hover effect */
+}
+
+.circular-button-transparent:hover {
+    background: linear-gradient(45deg, #756a58, #c2b6a1);
+    background-color: #bba98a;
+    transform: scale(1.1); /* Slightly larger on hover */
+    border: solid white 2px !important;
+}
+
+.circular-button-black {
+    width: 50px;
+    height: 50px;
+    background: linear-gradient(45deg, #1b1b1b, #000000);
+    background-color: #000000;
+    border: none;
+    border-radius: 50%;
+    color: white;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    outline: none;
+    transition: background-color 0.3s, transform 0.3s; /* Smooth transition for hover effect */
+}
+
+.circular-button-black:hover {
+    background: linear-gradient(45deg, #000000, #2c2c2c);
+    background-color: #000000;
+    transform: scale(1.1); /* Slightly larger on hover */
+    border: solid white 2px !important;
+}
+
+
+@media (max-width: 1200px) {
+    .grid-container {
+        grid-template-columns: repeat(3, 1fr); /* 3 columns for medium screens */
+    }
+}
+
+@media (max-width: 768px) {
+    .grid-container {
+        grid-template-columns: repeat(2, 1fr); /* 2 columns for small screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .grid-container {
+        grid-template-columns: 1fr; /* 1 column for extra small screens */
+    }
+}
+.grid-container .grid-item {
+    display: inline-flex;
+}
+.grid-container{
+    text-align: center;
+}
+.grid-item {
+    padding: 2px;
+  }
+  .grid-container {
+    text-align: center;
+    background: #e2e2e2;
+    z-index: 999;
+    align-content: center;
+    align-items: center;
+    padding: 10px 0px;
+    height: 70px;
+    position: relative;
+  }
+  .content {
+    margin: 0 auto;
+    text-align: left;
+    padding: 10px 20px;
+    align-content: center;
+    background: #333;
+    font-family: Roboto,Segoe UI,Helvetica,Microsoft JhengHei,Arial,"sans-serif";
+  }
+  .content p {
+    line-height: 1.5em;
+    font-weight: normal;
+    text-align: justify;
+    color: white;
+    margin-top: 1.5em;
+    margin-bottom: 1.2em;
+  }
+  .content h2 {
+    font-size: 1.9em;
+    line-height: 0.2em;
+    color: white;
+  }
+
+  .overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 99999;
+    top: 0;
+    left: 50;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+    overflow-x: hidden;
+    transition: 0.5s;
+  }
+  
+  .overlay-content {
+    position: relative;
+    top: 25%;
+    width: 26%;
+    text-align: left;
+    margin-top:   30px;
+    left: 25%;
+  }
+  
+  .overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+  }
+  
+  .overlay .closebtn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 30px;
+  }
+  
+  @media screen and (max-height: 100%) {
+    .overlay a {font-size: 20px}
+    .overlay .closebtn {
+    font-size: 30px;
+    top: 10px;
+    right: 10px;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    
+    .overlay-content{
+        width: 100%;
+    }
+  }
+
+
+  .header-top {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+.logo img {
+    height: 40px; /* Adjust the height of the logo */
+}
+.hamburger {
+    display: block; /* Display the hamburger icon by default */
+    cursor: pointer;
+}
